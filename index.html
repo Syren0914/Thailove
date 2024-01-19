@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <title>Split screen</title>
+</head>
+<body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+     
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+     
+    </div>
+    
+
+    <div id="content" class="row no-gutters">
+        <div class="col-md-6 no-gutters">
+            <div class="leftside">
+                <a href="page-1.html" >
+                <img src="Thai_love.png" class="Thai_love" alt="">
+                <button class="button" data-text="Awesome">
+                    <span class="actual-text">&nbsp;Thai&nbsp;Love&nbsp;</span>
+                    <span aria-hidden="true" class="hover-text">&nbsp;Thai&nbsp;Love&nbsp;</span>
+                </button>
+                </a>
+            </div>
+        </div>
+        <div  class="col-md-6 no-gutters">
+            <div class="rightside">
+                <a href="page-2.html" >
+                    
+                    <button class="button" data-text="After_Work">
+                        <span class="actual-text">&nbsp;After&nbsp;Work&nbsp;</span>
+                        <span aria-hidden="true" class="hover-text">&nbsp;After&nbsp;Work&nbsp;</span>
+                    </button>
+                    <img src="After_Work.jpg" class="After_Work" alt="">
+                    </a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
