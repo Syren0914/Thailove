@@ -7,7 +7,8 @@ This is a Restaurant html template made by codewithsadee
 #---------- TOP BAR ----------#
 
 <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
-Restaurant St, Delicious City, London 9578, UK
+3433 Connecticut Ave NW,
+Washington, DC 20008 , USA.
 
 <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 Daily : 8.00 am to 10.00 pm
@@ -43,7 +44,7 @@ Open: 9.30 am - 2.30pm
 booking@grilli.com
 
 Booking Request
-+88-123-123456
+202-621-7193, 202-516-5897
 
 Find A Table
 
@@ -115,7 +116,7 @@ Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem I
 
 Book Through Call
 
-+80 (400) 123 4567
++1 (202)-621-7193
 
 Read More
 
@@ -213,7 +214,7 @@ Sam Jhonson
 Online Reservation
 
 Booking request
-+88-123-123456
+202-621-7193, 202-516-5897
 or fill out the order form
 
 placeholder = Your Name
@@ -245,7 +246,7 @@ Contact Us
 
 Booking Request
 
-+88-123-123456
+202-621-7193, 202-516-5897
 
 Location
 
@@ -309,11 +310,12 @@ View Our Blog
 
 alt = grilli home
 
-Restaurant St, Delicious City, London 9578, UK
+3433 Connecticut Ave NW,
+Washington, DC 20008 , USA.
 
 booking@grilli.com
 
-Booking Request : +88-123-123456
+Booking Request : 202-621-7193, 202-516-5897
 
 Open : 09:00 am - 01:00 pm
 
@@ -440,7 +442,8 @@ Monday to Sunday
 5.30 pm - 11.30 pm
 
 Contact Us
-Restaurant St, Delicious City, London 9578, UK
+3433 Connecticut Ave NW,
+Washington, DC 20008 , USA.
 
-+88-123-123456
+202-621-7193, 202-516-5897
 reservation@restro.com
