@@ -79,7 +79,7 @@ Washington, DC 20008 , USA.
           <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
         </div>
 
-        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+        <span class="span">Daily : 11:30 am - 09:30 pm</span>
       </div>
 
       <a href="tel:+12026217193" class="topbar-item link">
@@ -155,10 +155,10 @@ Washington, DC 20008 , USA.
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link hover-underline">
+            <a href="#events" class="navbar-link hover-underline">
               <div class="separator"></div>
 
-              <span class="span">Our Chefs</span>
+              <span class="span">Events</span>
             </a>
           </li>
 
@@ -198,7 +198,9 @@ Washington, DC 20008 , USA.
       <a href="#" class="btn btn-secondary">
         <span class="text text-1">Find A Table</span>
 
-        <span class="text text-2" aria-hidden="true">Find A Table</span>
+        <span class="text text-2 glf-button reservation" style="background: none;" aria-hidden="true" data-glf-cuid="0c98c577-0205-440e-b14b-cd38c1bc7810" data-glf-ruid="ce08c73f-d45c-46a9-ac67-d4ac37982569" data-glf-reservation="true" >FIND A TABLE</span>
+
+        <!-- <span class="text text-2" aria-hidden="true">Find A Table</span> -->
       </a>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
@@ -244,7 +246,7 @@ Washington, DC 20008 , USA.
               Come with family & feel the joy of mouthwatering food
             </p>
 
-            <a href="#" class="btn btn-primary slider-reveal">
+            <a href="/Thai-love-Dc/menu.html" class="btn btn-primary slider-reveal">
               <span class="text text-1">View Our Menu</span>
 
               <span class="text text-2" aria-hidden="true">View Our Menu</span>
@@ -312,10 +314,11 @@ Washington, DC 20008 , USA.
           <ion-icon name="chevron-forward"></ion-icon>
         </button>
 
-        <a href="#" class="hero-btn has-after">
+        <a href="#reservation"  class=" has-after hero-btn">
           <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
-
+          <!-- <span class="glf-button reservation label-2 text-center span"  data-glf-cuid="0c98c577-0205-440e-b14b-cd38c1bc7810" data-glf-ruid="ce08c73f-d45c-46a9-ac67-d4ac37982569" data-glf-reservation="true" >Table Reservation</span> -->
           <span class="label-2 text-center span">Book A Table</span>
+          
         </a>
 
       </section>
@@ -773,7 +776,7 @@ Washington, DC 20008 , USA.
         - #RESERVATION
       -->
 
-      <section class="reservation">
+      <section class="reservation" id="reservation">
         <div class="container">
 
           <div class="form reservation-form bg-black-10">
@@ -849,8 +852,9 @@ Washington, DC 20008 , USA.
 
               <button type="submit" class="btn btn-secondary">
                 <span class="text text-1">Book A Table</span>
+                <span class="text text-2 glf-button reservation" style="background: none;" aria-hidden="true" data-glf-cuid="0c98c577-0205-440e-b14b-cd38c1bc7810" data-glf-ruid="ce08c73f-d45c-46a9-ac67-d4ac37982569" data-glf-reservation="true" >Book A Table</span>
 
-                <span class="text text-2" aria-hidden="true">Book A Table</span>
+                <!-- <span class="text text-2" aria-hidden="true">Book A Table</span> -->
               </button>
 
             </form>
@@ -985,7 +989,7 @@ Washington, DC 20008 , USA.
         - #EVENT
       -->
 
-      <section class="section event bg-black-10" aria-label="event">
+      <section class="section event bg-black-10" aria-label="event" id="events">
         <div class="container">
 
           <p class="section-subtitle label-2 text-center">Recent Updates</p>
@@ -1220,6 +1224,7 @@ Washington, DC 20008 , USA.
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
 
 </body>
 

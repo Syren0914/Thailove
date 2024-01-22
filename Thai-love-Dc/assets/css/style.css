@@ -435,6 +435,8 @@ body.nav-active { overflow: hidden; }
   aspect-ratio: var(--width) / var(--height);
   overflow: hidden;
   background-color: var(--eerie-black-4);
+  width: 100px;
+  height: 100px;
 }
 
 .btn-text {
@@ -2143,3 +2145,32 @@ textarea.input-field {
   }
 
 }
+
+
+    /* TABLE RESERVATION BUTTON  */
+    .glf-button.reservation {
+      /* Your custom styles go here */
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: black;
+      padding: 10px 20px; /* Adjust padding as needed */
+      border-radius: 5px; /* Adjust border-radius as needed */
+      font-size: 16px; /* Adjust font size as needed */
+      font-weight: bold; /* Adjust font weight as needed */
+      z-index: 10;
+      background: transparent;
+  }
+  
+  .glf-button.reservation:hover {
+      /* Your hover styles go here */
+      background-color: red; /* Replace with your desired hover background color */
+     
+  }
+  .glf-button {
+    background-color: transparent;
+  }
+  .reservation{
+    background-color: transparent;
+  }
