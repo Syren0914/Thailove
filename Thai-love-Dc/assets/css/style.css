@@ -438,6 +438,14 @@ body.nav-active { overflow: hidden; }
   width: 100px;
   height: 100px;
 }
+.img-holder1 {
+  aspect-ratio: var(--width) / var(--height);
+  overflow: hidden;
+  background-color: var(--eerie-black-4);
+  /* width: 100px;
+  height: 100px; */
+}
+
 
 .btn-text {
   color: var(--gold-crayola);
