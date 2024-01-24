@@ -20,7 +20,7 @@
    * COLORS
    */
 
-  --gold-crayola: hsl(38, 61%, 73%);
+  --gold-crayola: rgb(236, 168, 58);
   --quick-silver: hsla(0, 0%, 65%, 1);
   --davys-grey: hsla(30, 3%, 34%, 1);
   --smoky-black-1: hsla(40, 12%, 5%, 1);
@@ -435,7 +435,17 @@ body.nav-active { overflow: hidden; }
   aspect-ratio: var(--width) / var(--height);
   overflow: hidden;
   background-color: var(--eerie-black-4);
+  width: 100px;
+  height: 100px;
 }
+.img-holder1 {
+  aspect-ratio: var(--width) / var(--height);
+  overflow: hidden;
+  background-color: var(--eerie-black-4);
+  /* width: 100px;
+  height: 100px; */
+}
+
 
 .btn-text {
   color: var(--gold-crayola);
@@ -815,11 +825,13 @@ body.nav-active { overflow: hidden; }
   pointer-events: none;
   user-select: none;
   z-index: -1;
+  background: rgb(0, 0, 0); /* Adjust the alpha value for darkness */
 }
 
 .hero .slider-item.active .slider-bg {
   animation: smoothScale 7s linear forwards;
 }
+
 
 @keyframes smoothScale {
   0% { transform: scale(1); }
@@ -2141,3 +2153,32 @@ textarea.input-field {
   }
 
 }
+
+
+    /* TABLE RESERVATION BUTTON  */
+    .glf-button.reservation {
+      /* Your custom styles go here */
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: black;
+      padding: 10px 20px; /* Adjust padding as needed */
+      border-radius: 5px; /* Adjust border-radius as needed */
+      font-size: 16px; /* Adjust font size as needed */
+      font-weight: bold; /* Adjust font weight as needed */
+      z-index: 10;
+      background: transparent;
+  }
+  
+  .glf-button.reservation:hover {
+      /* Your hover styles go here */
+      background-color: red; /* Replace with your desired hover background color */
+     
+  }
+  .glf-button {
+    background-color: transparent;
+  }
+  .reservation{
+    background-color: transparent;
+  }
