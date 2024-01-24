@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <link rel="stylesheet" href="/Thai-love-Dc/assets/css/style.css">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <title>Split screen</title>
 </head>
-<body>
-    <!-- <div id="loader-wrapper">
-        <div id="loader"></div>
-     
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-     
-    </div> -->
+<body style="overflow: hidden;">
     
-
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text"> Welcome</p>
+  </div>
+    
     <div id="content" class="row no-gutters">
         <div class=" col-md-6 no-gutters">
             <div class="leftside">
@@ -35,17 +34,17 @@
         <div  class="col-md-6 no-gutters">
             <div class="rightside">
                 <a href="/After-Work/index.html" >
-                    
                     <button class="button" data-text="Awesome">
                         <span class="actual-text">&nbsp;After&nbsp;Work&nbsp;</span>
                         <span aria-hidden="true" class="hover-text">&nbsp;After&nbsp;Work&nbsp;</span>
                     </button>
                     <img src="/img/after-work.png" class="After_Work" alt="">
-                    </a>
+                </a>
             </div>
         </div>
     </div>
     
     <script src="script.js"></script>
+    <script src="/Thai-love-Dc/assets/js/script.js"></script>
 </body>
 </html>
