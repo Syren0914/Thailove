@@ -916,7 +916,10 @@ body.nav-active { overflow: hidden; }
 
 .service .section-text { margin-block-end: 40px; }
 
-.service-card { overflow: hidden; }
+.service-card { 
+  overflow: hidden;
+  cursor: pointer;
+ }
 
 .service-card .has-before {
   padding-block: 30px;
