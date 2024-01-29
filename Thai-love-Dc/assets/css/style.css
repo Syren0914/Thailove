@@ -1286,6 +1286,7 @@ textarea.input-field {
   bottom: 0;
   width: 100%;
   padding: 35px 35px 25px;
+  cursor: pointer;
 }
 
 .event-card .publish-date {
