@@ -168,3 +168,15 @@ window.addEventListener("mousemove", function (event) {
   }
 
 });
+
+
+// Redirect
+function redirectToMenu(){
+  window.location.href = 'menu.html#appetizer';
+}
+function redirectToMenu1(){
+  window.location.href = 'menu.html#entree'
+}
+function redirectToMenu2(){
+  window.location.href = 'menu.html#drinks'
+}

@@ -171,7 +171,7 @@ window.addEventListener("mousemove", function (event) {
 
 
 
-// Rediricet 
+// Redirect
 function redirectToMenu(){
   window.location.href = 'menu.html#appetizer';
 }
