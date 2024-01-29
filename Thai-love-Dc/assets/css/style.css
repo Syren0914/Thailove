@@ -312,6 +312,13 @@ body.nav-active { overflow: hidden; }
   height: 100%;
   object-fit: cover;
 }
+  .img-covers {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  overflow-y: hidden;
+
+  }
 
 .section-subtitle {
   position: relative;
