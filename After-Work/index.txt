@@ -39,7 +39,7 @@ Visit Us
 Restaurant St, Delicious City,
 London 9578, UK
 
-Open: 9.30 am - 2.30pm
+Open: 8.00 am - 10.00 pm
 
 booking@grilli.com
 
@@ -292,7 +292,7 @@ Upcoming Event
 
 alt = Flavour so good you’ll try to eat with your eyes.
 
-15/09/2024
+Every Saturday
 Food, Flavour
 Flavour so good you’ll try to eat with your eyes.
 
