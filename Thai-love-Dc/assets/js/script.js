@@ -181,3 +181,12 @@ function redirectToMenu1(){
 function redirectToMenu2(){
   window.location.href = 'menu.html#drinks'
 }
+function redirectToContact(){
+  window.location.href = 'index.html#reservation';
+}
+function redirectToEvents(){
+  window.location.href = 'index.html#events';
+}
+function redirectToAbout(){
+  window.location.href = 'index.html#about';
+}
