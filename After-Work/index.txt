@@ -31,7 +31,7 @@ aria-label = close menu
 Home
 Menus
 About Us
-Our Chefs
+ 
 Contact
 
 Visit Us
@@ -332,7 +332,7 @@ Subscribe
 Home
 Menus
 About Us
-Our Chefs
+ 
 Contact
 
 Facebook
