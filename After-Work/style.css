@@ -2,7 +2,6 @@
 
 body {
 	font-family: Lato, sans-serif;
-	margin: 0;
 	padding: 1rem;
 	min-height: 100%; 
 	display: flex;
@@ -21,16 +20,17 @@ body {
 	transition: transform 1000ms;
 }
 
-ul {
+.gallery{
 	list-style: none;
-	margin: 0;
+	margin: -3rem auto 0; /* Adjust the top margin as needed */
 	padding: 0;
 	display: grid;
 	gap: 0.5rem;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 	max-width: 100%;
 	width: 70rem;
-}
+	transform: translateY(-40%);
+  }
 
 figure {
 	margin: 0;
@@ -108,10 +108,15 @@ a:is(:hover, :focus) figcaption {
 	
 	@media (max-width: 768px) {
 		ul {
-		  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-		  padding: 0.5rem; /* Adjusted padding for mobile */
-		  width: 100%; /* Adjusted width for mobile */
-		}
+			grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+			padding: 0.5rem;
+			width: 100%;
+			margin-top: -70rem; /* Adjusted top margin for mobile */
+		  }
 	  }
+	
+
+	
+
 /* >>>>>>> parent of 30c063c (update) */
 }
