@@ -2190,3 +2190,44 @@ textarea.input-field {
   .reservation{
     background-color: transparent;
   }
+
+
+
+
+  /* POPUP  */
+  .popup-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.popup img {
+    max-width: 100%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 54px;
+    text-decoration: none;
+    color: black;
+}

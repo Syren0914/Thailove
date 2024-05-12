@@ -40,6 +40,14 @@
 </head>
 
 <body id="top">
+  <!-- POPUP -->
+
+  <div class="popup-overlay">
+    <div class="popup">
+        <img src="/Thai-love-Dc/assets/images/popup-image.jpg" alt="Popup Image">
+        <a href="#" class="close">&times;</a>
+    </div>
+</div>
 
   <!-- 
     - #PRELOADER
@@ -1194,6 +1202,13 @@ Washington, DC 20008 , USA.
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector(".close").addEventListener("click", function() {
+            document.querySelector(".popup-overlay").style.display = "none";
+        });
+    });
+</script>
 
 </body>
 
